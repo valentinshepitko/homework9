@@ -1,20 +1,53 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
 }
 
 .container {
-    padding: 0 15px;
+    padding: 0 30px;
     width: 100%;
     max-width: 1852px;
     margin: 0 auto;
 }
 
-p {
-    text-align: left;
+.header {
+    margin-bottom: 100px;
     padding-top: 20px;
 }
 
+
+.navigation {
+    font-family: Roboto, sans-serif;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.logo {
+    float: right;
+    max-width: 180px;
+}
+
+p {
+    font-size: 36px;
+    padding-top: 30px;
+}
+
+strong {
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+}
 .heading {
     list-style-position: inside;
+}
+
+.text {
+    padding-bottom: 40px;
+
 }
