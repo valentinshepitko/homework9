@@ -17,10 +17,9 @@ body {
 }
 
 .header {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     padding-top: 20px;
 }
-
 
 .navigation {
     font-family: Roboto, sans-serif;
@@ -35,19 +34,25 @@ body {
 
 p {
     font-size: 36px;
-    padding-top: 30px;
+    padding-bottom: 40px;
 }
 
 strong {
     font-family: Roboto, sans-serif;
     font-weight: 900;
     font-size: 36px;
+    display: block;
+    padding-bottom: 50px;
 }
-.heading {
+
+.list {
     list-style-position: inside;
 }
 
 .text {
-    padding-bottom: 40px;
+    padding-bottom: 50px;
+}
 
+mark {
+    background-color: lightgrey;
 }
